@@ -41,24 +41,19 @@ public class Main {
     }
 
     private static void use_Drive() {
-        if (check_drive("D") == null) {
-        } else {
+        if (check_drive("D") != null) {
             drives.add('D');
         }
-        if (check_drive("E") == null) {
-        } else {
+        if (check_drive("E")!= null) {
             drives.add('E');
         }
-        if (check_drive("F") == null) {
-        } else {
+        if (check_drive("F")!= null) {
             drives.add('F');
         }
-        if (check_drive("H") == null) {
-        } else {
+        if (check_drive("H")!= null) {
             drives.add('H');
         }
-        if (check_drive("I") == null) {
-        } else {
+        if (check_drive("I")!= null) {
             drives.add('I');
         }
     }
